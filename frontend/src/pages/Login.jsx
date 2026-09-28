@@ -159,7 +159,7 @@ export default function Login({ onLoginSuccess }) {
               <input
                 type="email"
                 className="input-field"
-                placeholder="sanjithadukkipati06@gmail.com"
+                placeholder="you@example.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -175,7 +175,7 @@ export default function Login({ onLoginSuccess }) {
               <input
                 type="password"
                 className="input-field"
-                placeholder="••••••••"
+                placeholder="Enter your password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required

@@ -105,7 +105,7 @@ export default function Register({ onLoginSuccess }) {
               <input
                 type="text"
                 className="input-field"
-                placeholder="e.g. Alice Johnson"
+                placeholder="Enter your full name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
@@ -121,7 +121,7 @@ export default function Register({ onLoginSuccess }) {
               <input
                 type="email"
                 className="input-field"
-                placeholder="name@company.com"
+                placeholder="you@example.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
@@ -137,7 +137,7 @@ export default function Register({ onLoginSuccess }) {
               <input
                 type="password"
                 className="input-field"
-                placeholder="••••••••"
+                placeholder="Enter your password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
